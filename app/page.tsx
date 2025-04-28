@@ -60,7 +60,7 @@ export default function Home() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <a href="#" className="text-xl font-bold">
-            Shanyan Sood
+            Aryus Kumar Samal
           </a>
 
           {/* Desktop Navigation */}
@@ -133,21 +133,16 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <div className="flex flex-col md:flex-row items-center justify-between gap-12">
               <div className="flex-1">
-                <h1 className="text-4xl md:text-5xl font-bold mb-4">
+                <h1 className="text-4xl md:text-4xl font-bold mb-4">
                   Hi, I&apos;m{" "}
-                  <span className="text-primary">Shanyan Sood</span>
+                  <span className="text-primary">Aryus Kumar Samal</span>
                 </h1>
                 <p className="text-xl md:text-xl text-muted-foreground mb-8">
                   Computer Science Student & Data Science Enthusiast
                 </p>
                 <div className="flex space-x-4">
                   <Button
-                    onClick={() =>
-                      window.open(
-                        "/ShanyanCV.pdf",
-                        "_blank"
-                      )
-                    }
+                    onClick={() => window.open("/ShanyanCV.pdf", "_blank")}
                   >
                     View Resume
                   </Button>
@@ -161,7 +156,7 @@ export default function Home() {
                 </div>
                 <div className="flex mt-8 space-x-4">
                   <a
-                    href="https://www.linkedin.com/in/shanyan-sood-6b4732325/"
+                    href="https://www.linkedin.com/in/aryus-kumar/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-primary transition-colors"
@@ -169,7 +164,7 @@ export default function Home() {
                     <Linkedin size={24} />
                   </a>
                   <a
-                    href="https://github.com/ShaMetO"
+                    href="https://github.com/aryuskumar1122"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-primary transition-colors"
@@ -177,7 +172,7 @@ export default function Home() {
                     <GitHub size={24} />
                   </a>
                   <a
-                    href="mailto:shanyansood862@gmail.com"
+                    href="mailto:aryuskuamr1122@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     <Mail size={24} />
@@ -208,26 +203,24 @@ export default function Home() {
             <h2 className="text-3xl font-bold mb-12 text-center">About Me</h2>
             <div className="max-w-3xl mx-auto">
               <p className="text-lg mb-6">
-                I&apos;m a Computer Science and Engineering student at Lovely
-                Professional University with a strong passion for Machine
-                Learning and Data Science. I enjoy solving real-world problems
-                through code and continuously strive to expand my knowledge and
-                skills in these areas.
+                I&apos;m Aryus Kumar Samal, a Computer Science and Engineering
+                student at Lovely Professional University with a focus on Data
+                Structures, Algorithms, Software Development, and Machine
+                Learning.
               </p>
               <p className="text-lg mb-6">
-                My technical journey has given me hands-on experience with tools
-                like MySQL, VS Code, Excel, and Tableau. I&apos;m particularly
-                drawn to Machine Learning and Exploratory Data Analysis (EDA),
-                and I&apos;ve had the opportunity to apply these concepts in
-                various projects that highlight my analytical and
-                problem-solving abilities.
+                My expertise includes Java and Python programming, with hands-on
+                experience in frameworks like PyTorch, TensorFlow, Spring, and
+                Hibernate. I&apos;ve worked on Machine Learning projects,
+                Natural Language Processing tasks, and Full-Stack Web
+                Development.
               </p>
 
               <p className="text-lg">
-                As a team player with strong adaptability and time management
-                skills, I am constantly seeking opportunities to apply my
-                knowledge in real-world scenarios and contribute to innovative
-                solutions in the field of data science.
+                I&apos;m highly adaptive, collaborative, and continuously
+                upgrading my skills to match industry standards. My goal is to
+                contribute to cutting-edge technology projects and bridge the
+                gap between theory and practical applications.
               </p>
             </div>
           </div>
@@ -442,9 +435,7 @@ export default function Home() {
                   />
                 </div>
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-bold mb-2">
-                    Cube Game
-                  </h3>
+                  <h3 className="text-xl font-bold mb-2">Cube Game</h3>
                   <p className="text-muted-foreground mb-4">
                     Developed a 3D cube game using Unity and C# scripts,
                     showcasing my skills in game development and designing.
@@ -462,7 +453,7 @@ export default function Home() {
                   </div>
                   <div className="flex justify-end">
                     <a
-                      href="https://github.com/ShaMetO"
+                      href="https://github.com/aryuskumar1122"
                       className="text-primary hover:underline flex items-center gap-1"
                     >
                       View Project <ExternalLink size={16} />
@@ -484,26 +475,27 @@ export default function Home() {
                 </div>
                 <CardContent className="p-6">
                   <h3 className="text-xl font-bold mb-2">
-                    Image Quality Assessment
+                    StreamNest - Movie Streaming Platform
                   </h3>
                   <p className="text-muted-foreground mb-4">
-                    Processed 10,073 images with advanced quality features and
-                    achieved high accuracy in quality prediction.
+                    A full-stack video streaming website with secure
+                    authentication, efficient video management, and upcoming
+                    content-based recommender system.
                   </p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     <span className="bg-primary/10 text-primary text-xs px-2 py-1 rounded-full">
-                      Python
+                      JavaScript
                     </span>
                     <span className="bg-primary/10 text-primary text-xs px-2 py-1 rounded-full">
-                      OpenCV
+                      Servlet
                     </span>
                     <span className="bg-primary/10 text-primary text-xs px-2 py-1 rounded-full">
-                      scikit-learn
+                      Prisma
                     </span>
                   </div>
                   <div className="flex justify-end">
                     <a
-                      href="https://github.com/ShaMetO"
+                      href="https://github.com/aryuskumar1122"
                       className="text-primary hover:underline flex items-center gap-1"
                     >
                       View Project <ExternalLink size={16} />
@@ -525,26 +517,27 @@ export default function Home() {
                 </div>
                 <CardContent className="p-6">
                   <h3 className="text-xl font-bold mb-2">
-                    Crime Data Analysis
+                    GrindX - Study Tracker & Recommender
                   </h3>
                   <p className="text-muted-foreground mb-4">
-                    Conducted EDA on Crimes in India dataset to identify
-                    patterns and trends across states and categories.
+                    An intelligent study tracking dashboard with live updates,
+                    shareable reports, and a hybrid personalized recommendation
+                    system powered by ML and NLP.
                   </p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     <span className="bg-primary/10 text-primary text-xs px-2 py-1 rounded-full">
                       Python
                     </span>
                     <span className="bg-primary/10 text-primary text-xs px-2 py-1 rounded-full">
-                      Pandas
+                      PyTorch
                     </span>
                     <span className="bg-primary/10 text-primary text-xs px-2 py-1 rounded-full">
-                      Seaborn
+                      NLP
                     </span>
                   </div>
                   <div className="flex justify-end">
                     <a
-                      href="https://github.com/ShaMetO"
+                      href="https://github.com/aryuskumar1122"
                       className="text-primary hover:underline flex items-center gap-1"
                     >
                       View Project <ExternalLink size={16} />
@@ -570,25 +563,17 @@ export default function Home() {
                   <CardContent className="p-6">
                     <div className="flex flex-col md:flex-row justify-between mb-4">
                       <h3 className="text-xl font-bold">
-                        Data Science and Machine Learning
+                        Data Structures and Algorithms
                       </h3>
                       <p className="text-muted-foreground">
-                        Jun &apos;24 – Jul &apos;24
+                        Jun &apos;24 – Aug &apos;24
                       </p>
                     </div>
                     <p className="text-muted-foreground mb-2">GeeksforGeeks</p>
                     <ul className="list-disc pl-5 space-y-2">
                       <li>
-                        Strengthened problem-solving skills through hands-on
-                        coding challenges
-                      </li>
-                      <li>
-                        Learned key Machine Learning techniques and model
-                        evaluation metrics
-                      </li>
-                      <li>Worked on real-world datasets and built ML models</li>
-                      <li>
-                        Explored deep learning fundamentals and neural networks
+                        Developed an efficient Sudoku solver using the
+                        Backtracking algorithm with Java.
                       </li>
                     </ul>
                     <div className="flex justify-end">
@@ -626,9 +611,11 @@ export default function Home() {
                   <Card>
                     <CardContent className="p-6">
                       <h3 className="text-xl font-bold mb-2">
-                        Data Analysis with Tableau
+                        Complete Data Structures and Algorithms
                       </h3>
-                      <p className="text-muted-foreground mb-2">Coursera</p>
+                      <p className="text-muted-foreground mb-2">
+                        GeeksForGeeks{" "}
+                      </p>
                       <p className="text-sm mb-4">Issued: Jan &apos;23</p>
                       <div className="flex justify-end">
                         <a
@@ -669,10 +656,10 @@ export default function Home() {
                 <CardContent className="p-6">
                   <h3 className="text-xl font-bold mb-2">Intermediate</h3>
                   <p className="text-muted-foreground">
-                    The Indian Public School, Dehradun
+                    Kendriya Vidyalaya Hissar Cantt, Haryana
                   </p>
                   <p className="text-sm">2020 - 2022</p>
-                  <p className="mt-2">Percentage: 86.4%</p>
+                  <p className="mt-2">Percentage: 91%</p>
                 </CardContent>
               </Card>
 
@@ -680,10 +667,10 @@ export default function Home() {
                 <CardContent className="p-6">
                   <h3 className="text-xl font-bold mb-2">Matriculation</h3>
                   <p className="text-muted-foreground">
-                    Our Lady Of The Snows School, Kullu
+                    Kendriya Vidyalaya Hissar Cantt, Haryana
                   </p>
                   <p className="text-sm">2019 - 2020</p>
-                  <p className="mt-2">Percentage: 83.2%</p>
+                  <p className="mt-2">Percentage: 84%</p>
                 </CardContent>
               </Card>
             </div>
@@ -708,7 +695,7 @@ export default function Home() {
                         </div>
                         <div>
                           <p className="text-sm text-muted-foreground">Email</p>
-                          <p>shanyansood862@gmail.com</p>
+                          <p>aryuskuamr1122@gmail.com</p>
                         </div>
                       </div>
 
@@ -721,10 +708,10 @@ export default function Home() {
                             LinkedIn
                           </p>
                           <a
-                            href="https://www.linkedin.com/in/shanyan-sood-6b4732325/"
+                            href="linkedin.com/in/aryus-kumar"
                             className="hover:text-primary"
                           >
-                            linkedin.com/in/shanyan-sood-6b4732325
+                            linkedin.com/in/aryus-kumar
                           </a>
                         </div>
                       </div>
@@ -738,10 +725,10 @@ export default function Home() {
                             GitHub
                           </p>
                           <a
-                            href="https://github.com/ShaMetO"
+                            href="github.com/aryuskumar1122"
                             className="hover:text-primary"
                           >
-                            github.com/ShaMetO
+                            github.com/aryuskumar1122
                           </a>
                         </div>
                       </div>
@@ -814,7 +801,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-muted-foreground mb-4 md:mb-0">
-              © 2024 Shanyan Sood. All rights reserved.
+              © 2024 Aryus Kumar Samal. All rights reserved.
             </p>
 
             <div className="flex space-x-4">
@@ -827,7 +814,7 @@ export default function Home() {
                 <Linkedin size={20} />
               </a>
               <a
-                href="https://github.com/ShaMetO"
+                href="https://github.com/aryuskumar1122"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
