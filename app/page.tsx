@@ -138,7 +138,7 @@ export default function Home() {
                   <span className="text-primary">Sumit Narayan</span>
                 </h1>
                 <p className="text-xl md:text-xl text-muted-foreground mb-8">
-                  Computer Science Student & Data Science Enthusiast
+                  Computer Science Student & Cloud Arhitecture 
                 </p>
                 <div className="flex space-x-4">
                   <Button
