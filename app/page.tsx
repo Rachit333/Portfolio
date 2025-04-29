@@ -659,7 +659,7 @@ export default function Home() {
                     KSM Public School, Delhi
                   </p>
                   <p className="text-sm">2020 - 2022</p>
-                  <p className="mt-2">Percentage: 91%</p>
+                  <p className="mt-2">Percentage: 74%</p>
                 </CardContent>
               </Card>
 
