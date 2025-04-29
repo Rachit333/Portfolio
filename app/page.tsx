@@ -60,7 +60,7 @@ export default function Home() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <a href="#" className="text-xl font-bold">
-            Aryus Kumar Samal
+            Sumit Narayan
           </a>
 
           {/* Desktop Navigation */}
@@ -135,7 +135,7 @@ export default function Home() {
               <div className="flex-1">
                 <h1 className="text-4xl md:text-4xl font-bold mb-4">
                   Hi, I&apos;m{" "}
-                  <span className="text-primary">Aryus Kumar Samal</span>
+                  <span className="text-primary">Sumit Narayan</span>
                 </h1>
                 <p className="text-xl md:text-xl text-muted-foreground mb-8">
                   Computer Science Student & Data Science Enthusiast
@@ -172,7 +172,7 @@ export default function Home() {
                     <GitHub size={24} />
                   </a>
                   <a
-                    href="mailto:aryuskuamr1122@gmail.com"
+                    href="mailto:sumitnarayn460@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     <Mail size={24} />
@@ -182,7 +182,7 @@ export default function Home() {
               <div className="flex-1 flex justify-center">
                 <div className="w-64 h-64 md:w-90 md:h-90 rounded-full bg-primary/10 flex items-center justify-center">
                   <Image
-                    src="/profile.png"
+                    src="/profile.jpg"
                     alt="Profile Picture"
                     width={300}
                     height={300}
@@ -203,7 +203,7 @@ export default function Home() {
             <h2 className="text-3xl font-bold mb-12 text-center">About Me</h2>
             <div className="max-w-3xl mx-auto">
               <p className="text-lg mb-6">
-                I&apos;m Aryus Kumar Samal, a Computer Science and Engineering
+                I&apos;m Sumit Narayan, a Computer Science and Engineering
                 student at Lovely Professional University with a focus on Data
                 Structures, Algorithms, Software Development, and Machine
                 Learning.
@@ -648,7 +648,7 @@ export default function Home() {
                     Lovely Professional University, Punjab
                   </p>
                   <p className="text-sm">2022 - present</p>
-                  <p className="mt-2">CGPA: 7.75</p>
+                  <p className="mt-2">CGPA: 5.5</p>
                 </CardContent>
               </Card>
 
@@ -656,7 +656,7 @@ export default function Home() {
                 <CardContent className="p-6">
                   <h3 className="text-xl font-bold mb-2">Intermediate</h3>
                   <p className="text-muted-foreground">
-                    Kendriya Vidyalaya Hissar Cantt, Haryana
+                    KSM Public School, Delhi
                   </p>
                   <p className="text-sm">2020 - 2022</p>
                   <p className="mt-2">Percentage: 91%</p>
@@ -667,7 +667,7 @@ export default function Home() {
                 <CardContent className="p-6">
                   <h3 className="text-xl font-bold mb-2">Matriculation</h3>
                   <p className="text-muted-foreground">
-                    Kendriya Vidyalaya Hissar Cantt, Haryana
+                    KSM Public School, Delhi
                   </p>
                   <p className="text-sm">2019 - 2020</p>
                   <p className="mt-2">Percentage: 84%</p>
@@ -695,7 +695,7 @@ export default function Home() {
                         </div>
                         <div>
                           <p className="text-sm text-muted-foreground">Email</p>
-                          <p>aryuskuamr1122@gmail.com</p>
+                          <p>sumitnarayn460@gmail.com</p>
                         </div>
                       </div>
 
@@ -709,9 +709,10 @@ export default function Home() {
                           </p>
                           <a
                             href="linkedin.com/in/aryus-kumar"
+                            target="_blank"
                             className="hover:text-primary"
                           >
-                            linkedin.com/in/aryus-kumar
+                            linkedin.com/in/sumit-narayan-672551251
                           </a>
                         </div>
                       </div>
@@ -728,7 +729,7 @@ export default function Home() {
                             href="github.com/aryuskumar1122"
                             className="hover:text-primary"
                           >
-                            github.com/aryuskumar1122
+                            github.com/summitnarayan
                           </a>
                         </div>
                       </div>
@@ -801,7 +802,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-muted-foreground mb-4 md:mb-0">
-              © 2024 Aryus Kumar Samal. All rights reserved.
+              © 2024 Sumit Narayan. All rights reserved.
             </p>
 
             <div className="flex space-x-4">
