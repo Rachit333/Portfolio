@@ -204,8 +204,8 @@ export default function Home() {
             <div className="max-w-3xl mx-auto">
               <p className="text-lg mb-6">
                 I&apos;m Sumit Narayan, a Computer Science and Engineering
-                student at Lovely Professional University with a focus on Data
-                Structures, Algorithms, Software Development, and Machine
+                student at Lovely Professional University with a focus on  Cloud Computing 
+                Data Structures, Algorithms, Software Development, and Machine
                 Learning.
               </p>
               <p className="text-lg mb-6">
@@ -648,7 +648,7 @@ export default function Home() {
                     Lovely Professional University, Punjab
                   </p>
                   <p className="text-sm">2022 - present</p>
-                  <p className="mt-2">CGPA: 5.5</p>
+                  <p className="mt-2">CGPA: 5.8</p>
                 </CardContent>
               </Card>
 
