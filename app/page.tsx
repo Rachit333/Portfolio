@@ -2,7 +2,7 @@ import { HeroSection } from "@/components/hero-section"
 import { WorkSection } from "@/components/work-section"
 import { SkillsSection } from "@/components/skills-section"
 import { ExperienceSection } from "@/components/experience-section"
-import { SignalsSection } from "@/components/signals-section"
+import { BuildingSection } from "@/components/building-section"
 import { ContactSection } from "@/components/contact-section"
 import { ColophonSection } from "@/components/colophon-section"
 import { SideNav } from "@/components/side-nav"
@@ -18,7 +18,7 @@ export default function Page() {
         <WorkSection />
         <SkillsSection />
         <ExperienceSection />
-        <SignalsSection />
+        <BuildingSection />
         <ContactSection />
         <ColophonSection />
       </div>

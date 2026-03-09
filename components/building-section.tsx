@@ -30,7 +30,7 @@ const buildingItems = [
   },
 ]
 
-export function SignalsSection() {
+export function BuildingSection() {
   const sectionRef = useRef<HTMLElement>(null)
   const headerRef = useRef<HTMLDivElement>(null)
   const cardsRef = useRef<HTMLDivElement>(null)
