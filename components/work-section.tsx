@@ -39,7 +39,7 @@ const experiments = [
     medium: "Production Web Apps",
     description:
       "Built client-facing full-stack applications with secure JWT authentication and optimized database schemas.",
-    url: "#",
+    url: "https://www.cavaliercanter.com/",
     span: "col-span-1 row-span-1",
   },
 ];
