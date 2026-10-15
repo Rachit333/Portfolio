@@ -6,6 +6,10 @@ export default function Hero() {
     <section id="home" className="mb-20">
       <div className="flex flex-col md:flex-row gap-8 items-start">
         <div className="flex-1">
+          <div className="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1.5 text-xs font-medium text-emerald-300 mb-6">
+            <span className="h-2 w-2 rounded-full bg-emerald-400" />
+            Available for freelance & product work
+          </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             Rachit Jasoria
           </h1>

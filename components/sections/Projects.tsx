@@ -16,7 +16,7 @@ interface ProjectsProps {
 
 export default function Projects({ projects, showAll, onToggle }: ProjectsProps) {
   return (
-    <section className="mb-20">
+    <section id="projects" className="mb-20">
       <h2 className="text-2xl font-bold mb-8">Projects</h2>
       <div className="space-y-12">
         {projects.slice(0, showAll ? projects.length : 3).map((project, idx) => (

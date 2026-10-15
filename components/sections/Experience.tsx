@@ -13,9 +13,10 @@ interface ExperienceItem {
 interface ExperienceProps {
   experiences: ExperienceItem[];
   showAll: boolean;
+  onToggle: () => void;
 }
 
-export default function Experience({ experiences, showAll }: ExperienceProps) {
+export default function Experience({ experiences, showAll, onToggle }: ExperienceProps) {
   return (
     <section className="mb-20 py-12 border-t border-b border-zinc-800">
       <h2 className="text-2xl font-bold mb-8">Experience</h2>
@@ -45,6 +46,14 @@ export default function Experience({ experiences, showAll }: ExperienceProps) {
           </div>
         ))}
       </div>
+      {experiences.length > 2 && (
+        <button
+          onClick={onToggle}
+          className="mt-8 text-sm text-zinc-400 hover:text-zinc-300 transition-colors"
+        >
+          {showAll ? "Show Less" : "Show More"}
+        </button>
+      )}
     </section>
   );
 }

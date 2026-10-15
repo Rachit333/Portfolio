@@ -18,7 +18,7 @@ export default function Home() {
 
   const skills = {
     languages: ["HTML", "CSS", "JavaScript", "Java", "Python", "TypeScript", "SQL", "PHP"],
-    frameworks: ["React.js", "Express.js", "Node.js", "PostgreSQL", "MongoDB", "Next.js", "TailWind CSS"],
+    frameworks: ["React.js", "Express.js", "Node.js", "PostgreSQL", "MongoDB", "Next.js", "Tailwind CSS"],
     tools: ["Firebase", "Redis", "Gemini API", "JWT", "bcryptjs", "Ollama"],
   };
 
@@ -79,7 +79,11 @@ export default function Home() {
         <Hero />
         <About />
         <Stack skills={skills} />
-        <Experience experiences={experiences} showAll={showAllExp} />
+        <Experience
+          experiences={experiences}
+          showAll={showAllExp}
+          onToggle={() => setShowAllExp(!showAllExp)}
+        />
         <Projects
           projects={projects}
           showAll={showAllProjects}
