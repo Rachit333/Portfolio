@@ -11,7 +11,7 @@ export default function Page() {
   return (
     <main className="relative min-h-screen">
       <a href="#work" className="sr-only focus:not-sr-only">
-        Skip to projects.
+        Skip to projects
       </a>
       <SideNav />
       <div className="grid-bg fixed inset-0 opacity-30" aria-hidden="true" />
