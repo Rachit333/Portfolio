@@ -1,8 +1,7 @@
 "use client";
 
-import type React from "react";
 import { motion } from "framer-motion";
-import { useMemo, useState, useCallback, useEffect, useRef } from "react";
+import { useMemo, useState, useEffect, useRef } from "react";
 
 interface SplitFlapTextProps {
   text: string;
@@ -18,15 +17,6 @@ function SplitFlapTextInner({
   speed = 50,
 }: SplitFlapTextProps) {
   const chars = useMemo(() => text.split(""), [text]);
-  const [animationKey, setAnimationKey] = useState(0);
-  const [hasInitialized, setHasInitialized] = useState(false);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setHasInitialized(true);
-    }, 1000);
-    return () => clearTimeout(timer);
-  }, []);
 
   return (
     <div
@@ -39,8 +29,6 @@ function SplitFlapTextInner({
           key={index}
           char={char.toUpperCase()}
           index={index}
-          animationKey={animationKey}
-          skipEntrance={hasInitialized}
           speed={speed}
         />
       ))}
@@ -55,24 +43,14 @@ export function SplitFlapText(props: SplitFlapTextProps) {
 interface SplitFlapCharProps {
   char: string;
   index: number;
-  animationKey: number;
-  skipEntrance: boolean;
   speed: number;
 }
 
-function SplitFlapChar({
-  char,
-  index,
-  animationKey,
-  skipEntrance,
-  speed,
-}: SplitFlapCharProps) {
+function SplitFlapChar({ char, index, speed }: SplitFlapCharProps) {
   const displayChar = CHARSET.includes(char) ? char : " ";
   const isSpace = char === " ";
-  const [currentChar, setCurrentChar] = useState(
-    skipEntrance ? displayChar : " ",
-  );
-  const [isSettled, setIsSettled] = useState(skipEntrance);
+  const [currentChar, setCurrentChar] = useState(" ");
+  const [isSettled, setIsSettled] = useState(false);
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -95,7 +73,7 @@ function SplitFlapChar({
     setCurrentChar(CHARSET[Math.floor(Math.random() * CHARSET.length)]);
 
     const baseFlips = 8;
-    const startDelay = skipEntrance ? tileDelay * 400 : tileDelay * 800;
+    const startDelay = tileDelay * 800;
     let flipIndex = 0;
     let hasStartedSettling = false;
 
@@ -123,8 +101,6 @@ function SplitFlapChar({
     displayChar,
     isSpace,
     tileDelay,
-    animationKey,
-    skipEntrance,
     index,
     speed,
   ]);
@@ -142,7 +118,7 @@ function SplitFlapChar({
 
   return (
     <motion.div
-      initial={skipEntrance ? false : { opacity: 0, y: 20 }}
+      initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: tileDelay, duration: 0.3, ease: "easeOut" }}
       className="relative overflow-hidden flex items-center justify-center font-[var(--font-bebas)]"
