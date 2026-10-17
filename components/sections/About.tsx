@@ -9,7 +9,7 @@ export default function About() {
         </p>
         <p>
           • Specialization in building{" "}
-          <span className="text-zinc-300">AI-powered applications</span> with modern
+          <span className="text-zinc-300">AI powered applications</span> with modern
           frontend frameworks like React, Next.js, and secure backend systems
         </p>
         <p>
